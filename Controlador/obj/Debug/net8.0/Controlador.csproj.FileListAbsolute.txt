@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\bin\Debug\net8.0\Controlador.deps.json
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\bin\Debug\net8.0\Controlador.dll
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\bin\Debug\net8.0\Controlador.pdb
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\bin\Debug\net8.0\Modelo.dll
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\bin\Debug\net8.0\Modelo.pdb
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controla.6B62700F.Up2Date
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.dll
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\refint\Controlador.dll
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\Controlador.pdb
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\Controlador\obj\Debug\net8.0\ref\Controlador.dll

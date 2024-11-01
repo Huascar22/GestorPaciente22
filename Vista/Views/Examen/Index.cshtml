@@ -1,0 +1,87 @@
+﻿@using Modelo.Entidades;
+@model IEnumerable<ExamenMedico>;
+
+<div class="row mb-2">
+    <div class="col-12 col-sm-2">
+        <a asp-action="Crear" asp-controller="Examen" class="btn btn-primary w-100 mb-2">Crear Examen</a>
+    </div>
+    <div class="col-12 col-sm-8">
+        <form class="form-check row g-2" asp-action="BuscarByCedula" asp-controller="Examen">
+            <div class="col-12 col-sm-5">
+                <input class="form-control w-100" placeholder="Cedula" name="Cedula" />
+            </div>
+            <div class="col-12 col-sm-5">
+                <button class="btn btn-primary w-100">Buscar</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+@if (Model is not null && Model.Count() > 0)
+{
+    <div class="row">
+        @foreach (var examen in Model)
+        {
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div >
+                                    <h3 class ="text-xs font-weight-bold text-success
+                                                text-uppercase mb-1 text-center">
+                                        Examen medico de @examen.Prueba.Nombre
+                                    </h3>   
+                                    <h6>
+                                        <b>Paciente:</b> @examen.Paciente.Nombre @examen.Paciente.Apellido                                       
+                                    </h6>
+                                    <h6><b>Cedula:</b> @examen.Paciente.Cedula</h6>
+                                </div>
+                               
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                            <div class="footer mx-auto my-2">
+                                <a class="btn btn-primary btn-sm w-100" data-bs-toggle="modal" data-bs-target="#comentarioModal">
+                                    Agregar Resultado
+                                </a>
+                                <div class="modal fade" id="comentarioModal" tabindex="-1" aria-labelledby="comentarioModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="comentarioModalLabel">Agregar Comentario</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form asp-action="CrearResultado" asp-controller="Examen" method="post">
+                                                    <div class="mb-3">
+                                                        <label for="comentarioInput" class="form-label">Comentario</label>
+                                                        <textarea class="form-control" id="comentarioInput" name="Comentario" rows="3" required></textarea>
+                                                    </div>
+                                                    <input type="hidden" name="Id" value="@examen.Id" />                                          
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                        <button type="submit" class="btn btn-primary">Agregar Comentario</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else{
+    <div class="mt-5 d-flex justify-content-center alert alert-danger text-center">
+        <h4>No hay Examenes Pendientes disponibles </h4>
+    </div>
+}
+
+

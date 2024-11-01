@@ -1,0 +1,56 @@
+﻿@using Vista.ViewModels;
+@model ExamenViewModel;
+
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-10 col-sm-12">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="fw-bold text-gradient-primary mb-4">
+                                    <i class="bi bi-person-fill-add"></i> Crear Examen Médico
+                                </h1>
+                            </div>
+                            <form asp-action="Crear" asp-controller="Examen">
+                                <div class="form-group mb-3">
+                                    @Html.DropDownListFor(m => m.SelectedPacienteId,
+                                             new SelectList(Model.Pacientes, "Id", "Nombre"),
+                                             "Selecciona un Paciente",
+                                             new { @class = "form-control", @required = "required" })
+                                </div>
+
+                                <div class="form-group mb-3">
+                                    @Html.DropDownListFor(m => m.SelectedPruebaId,
+                                             new SelectList(Model.Pruebas, "Id", "Nombre"),
+                                             "Selecciona una Prueba",
+                                             new { @class = "form-control", @required = "required" })
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100 mb-2">Crear</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a asp-action="Index" asp-controller="Examen" class="btn btn-secondary w-100">Volver</a>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+

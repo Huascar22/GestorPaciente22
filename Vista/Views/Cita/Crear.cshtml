@@ -1,0 +1,78 @@
+﻿@using Vista.ViewModels;
+@model CitaViewModel;
+
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="fw-bold text-gradient-primary mb-4"><i class="bi bi-person-fill-add"></i> Crear Cita</h1>
+                            </div>
+                            <form asp-action="Crear" asp-controller="Cita">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            @Html.DropDownListFor(m => m.PacienteId,
+                                                     new SelectList(Model.Pacientes, "Id", "Nombre"),
+                                                     "Selecciona un Paciente",
+                                                     new { @class = "form-control", @required = "required" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            @Html.DropDownListFor(m => m.MedicoId,
+                                                     new SelectList(Model.Medicos, "Id", "Nombre"),
+                                                     "Selecciona un medico",
+                                                     new { @class = "form-control", @required = "required" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
+                                        <input type="datetime-local" required class="form-control form-control-user mb-2"
+                                               asp-for="FechaCita" placeholder="Fecha de Cita"
+                                               min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")">
+                                        <span asp-validation-for="FechaCita" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
+                                        <input required class="form-control form-control-user mb-2"
+                                               asp-for="Causa" placeholder="Causa De la cita">
+                                        <span asp-validation-for="Causa" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary w-100 mb-2">Crear</button>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a asp-action="Index" asp-controller="Cita" class="btn btn-secondary w-100">Volver</a>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

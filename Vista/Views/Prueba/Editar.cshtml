@@ -1,0 +1,39 @@
+﻿@using Modelo.Entidades;
+@model Prueba;
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-7 ">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="fw-bold text-gradient-primary mb-4 text-center"><i class="bi bi-person-fill-add"></i> Editar Prueba</h1>
+                            </div>
+                            <form class="user col-12" asp-action="Editar" asp-controller="Prueba">
+                                <input type="hidden" asp-for="Id" />
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group row">
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Nombre" placeholder="Nombre" required>
+                                    </div>  
+                                 </div>
+                                <button type="submit" class="btn btn-primary btn-user col-sm-12 mb-3 mb-sm-2" >
+                                    Editar Prueba
+                                </button>
+                                <a asp-action="Index" asp-controller="Prueba"
+                                   class="btn btn-secondary btn-user col-sm-12 mb-3 mb-sm-0">
+                                
+                                    Volver
+                                </a>
+                                <hr>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

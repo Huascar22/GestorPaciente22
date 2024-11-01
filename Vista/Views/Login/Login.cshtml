@@ -1,0 +1,79 @@
+﻿@using Vista.ViewModels;
+@model LoginViewModel;
+
+
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h1 class="mb"></h1>
+
+<body class="bg-gradient-primary">
+
+    <div class="container ">
+
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-9">
+
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image mt-5">
+                                <img class="mt-5" src="~/imagenes/doctorLogin.png" alt="Alternate Text" style="height:400px; " />
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="fw-bold text-bg-gradient-primary mb-4 "><i class="bi bi-person-lock"></i> Login</h1>
+                                    </div>
+                                    @if (Model.AcessoDenegado)
+                                    {
+                                        <h3 class="text-center text-danger">
+                                            Este usuario esta bloqueado espere un minuto...</h3>
+                                    }
+                                    <form class="user" asp-action="Login" asp-controller="Login">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <span asp-validation-for="Username" class="text-danger"></span>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control form-control-user"
+                                                    asp-for="Username" placeholder="Nombre de usuario">
+                                        </div>
+                                        
+                                        <span asp-validation-for="Password" class="text-danger"></span>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-user"
+                                                   asp-for="Password"  placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox small">
+                                                <input asp-for="Recordar" type="checkbox" >
+                                                <label >
+                                                    Remember
+                                                    Me
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">
+                                            Login
+                                        </button>
+                                        <hr>
+                                        <a asp-action="RecuperarPassword" asp-controller="Password"
+                                           class="btn btn-google btn-user btn-block">
+                                            <i class="fab fa-google fa-fw"></i> Recordar Contraseña
+                                        </a>
+                                        <a asp-action="Registrar" asp-controller="Registrar" class="btn btn-facebook btn-user btn-block">
+                                            <i class="fab fa-facebook-f fa-fw"></i> Crear Cuenta
+                                        </a>
+                                    </form>                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

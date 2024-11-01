@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Vista.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vista.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\css\\Personalizado.css",
+      "PackagePath": "staticwebassets\\css\\Personalizado.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\10\\36f447a5-7756-4986-bf45-7aab12129dcc.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\10\\36f447a5-7756-4986-bf45-7aab12129dcc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\1\\5cb4c29a-533d-4696-bf92-e9f61d1f1c85.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\1\\5cb4c29a-533d-4696-bf92-e9f61d1f1c85.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\2\\3441f02d-0393-4e25-ad7e-3d4f50321f93.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\2\\3441f02d-0393-4e25-ad7e-3d4f50321f93.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\3\\262105cd-3954-4848-8861-6b959f394e5c.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\3\\262105cd-3954-4848-8861-6b959f394e5c.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\4\\26678111-79c3-455a-b221-202e09917c95.png",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\4\\26678111-79c3-455a-b221-202e09917c95.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\5\\4141acbe-e40e-4e96-acb6-08c2c4a4f7f6.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\5\\4141acbe-e40e-4e96-acb6-08c2c4a4f7f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\6\\de6e28e5-d71f-4d1d-9ec3-116dd91f57bd.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\6\\de6e28e5-d71f-4d1d-9ec3-116dd91f57bd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\7\\83e6afcf-7823-48b6-9510-7900fe2e3234.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\7\\83e6afcf-7823-48b6-9510-7900fe2e3234.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\8\\8506241c-7fe3-443b-ac88-383ee150befb.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\8\\8506241c-7fe3-443b-ac88-383ee150befb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Medico\\9\\0cb9ef5b-b2c5-4332-b719-f8f5b130eb6d.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Medico\\9\\0cb9ef5b-b2c5-4332-b719-f8f5b130eb6d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Paciente\\1\\d92e76e3-36ce-439f-9ea2-e79234de92dd.jfif",
+      "PackagePath": "staticwebassets\\imagenes\\Paciente\\1\\d92e76e3-36ce-439f-9ea2-e79234de92dd.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Paciente\\5\\3400fa1a-4d79-4fe7-bfa1-d30c0b939c12.png",
+      "PackagePath": "staticwebassets\\imagenes\\Paciente\\5\\3400fa1a-4d79-4fe7-bfa1-d30c0b939c12.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Paciente\\6\\bdef8ddd-48bf-4abe-a599-054b74446d0e.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\Paciente\\6\\bdef8ddd-48bf-4abe-a599-054b74446d0e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\Paciente\\7\\202f0d01-0581-48d2-82e7-bbff436a7c26.png",
+      "PackagePath": "staticwebassets\\imagenes\\Paciente\\7\\202f0d01-0581-48d2-82e7-bbff436a7c26.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\imagenes\\doctorLogin.png",
+      "PackagePath": "staticwebassets\\imagenes\\doctorLogin.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\Desktop\\Programacion\\Practicas\\Practica 2\\GestorPaciente\\Vista\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Vista.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Vista.props",
+      "PackagePath": "build\\Vista.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Vista.props",
+      "PackagePath": "buildMultiTargeting\\Vista.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Vista.props",
+      "PackagePath": "buildTransitive\\Vista.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

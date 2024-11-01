@@ -1,0 +1,47 @@
+﻿@using Modelo.Entidades;
+@model IEnumerable<Paciente>;
+
+<div class="row mb-3">
+    <div class="col-2">
+        <a asp-action="Crear" asp-controller="Paciente" class="btn bg-gradient-primary text-white text-center fw-bold ms-auto">
+            <i class="bi bi-person-plus-fill"></i> Paciente
+        </a>
+    </div>
+</div>
+
+@if(Model.Count() > 0)
+{
+    <div class="row gx-4 gx-lg-5 row-cols-sm-2  row-cols-md-3 row-cols-xl-6 justify-content-center">
+        @foreach (Paciente paciente in Model)
+        {
+            <div class="card m-2 p-0">
+                <img src="@paciente.Foto" style="height: 200px; width: 100%" />
+                <div class="card-body m-0 p-0">
+                    <p class="small ms-1 mb-0"><b>Nombre:</b> @paciente.Nombre </p>
+                    <p class="small ms-1 mb-0"><b>Apellido:</b> @paciente.Apellido</p>
+                    <p class="small ms-1 mb-0"><b>Cedula:</b> @paciente.Cedula</p>
+                    <p class="small ms-1 mb-0"><b>Telefono</b>: @paciente.Telefono</p>
+                    <p class="small ms-1 mb-0"><b>Fecha Nacimiento:</b> @paciente.FechaNacimiento.ToString("dd/MM/yyyy")</p>
+                </div>
+                <div class="footer mx-auto my-2">
+                    <a class="btn btn-danger m-1" onclick="confirmDelete('@paciente.Id','Paciente', 'Borrar')">Eliminar</a>
+                    <a class="btn btn-primary" asp-action="Editar" asp-controller="Paciente" asp-route-Id="@paciente.Id">
+                        <i class="bi bi-pen-fill "></i> Editar
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+
+else
+{
+    <div class="mt-5 d-flex justify-content-center alert alert-danger">
+        <h4>No hay pacientes disponibles en estos momentos</h4>
+    </div>
+}
+
+<partial name="_modalEliminar" />
+
+

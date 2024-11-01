@@ -1,0 +1,92 @@
+﻿@using Modelo.Enums
+@model Modelo.Entidades.Usuario;
+
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-register-image">
+                        <div class="col-lg-6 d-none d-lg-block bg-login-image mt-5">
+                            <img class="mt-5" src="~/imagenes/doctorLogin.png" alt="Alternate Text" style="height:400px; " />
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="fw-bold text-gradient-primary mb-4"><i class="bi bi-person-fill-add"></i> Editar Usuario</h1>
+                            </div>
+                            <form class="user" asp-action="Editar" asp-controller="Usuario">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <input  type="hidden" asp-for="Id"/>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Nombre" placeholder="Nombre">
+                                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Apellido" placeholder="Apellido">
+                                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-user"
+                                           asp-for="Email" placeholder="Correo Electronico">
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="UserName" placeholder="Nombre De Usuario">
+                                        <span asp-validation-for="UserName" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="col-md-10">
+                                            <select asp-for="TipoUsuario" asp-items="Html.GetEnumSelectList<TipoUsuario>()"
+                                                    class="form-control">
+                                                <option selected="selected" value="">Tipo  Usuario</option>
+                                            </select>
+                                            <span asp-validation-for="TipoUsuario"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <button type="submit" class="btn btn-primary btn-user btn-block">
+                                            Editar Usuario
+                                        </button>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="btn btn-secondary btn-user btn-block" asp-action="ObtenerUsuarios" asp-controller="ServiciosView">Volver</a>
+                                    </div>
+                                </div>
+                                
+                                <hr>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+

@@ -1,0 +1,45 @@
+﻿@using Vista.ViewModels;
+@model PruebaViewModel;
+
+<partial name="_FormularioPrueba" model="@Model.PruebaForomulario" />
+
+@if(Model.Pruebas is not null && Model.Pruebas.Count() > 0)
+{
+     <div class="row">
+        @foreach(var prueba in Model.Pruebas)
+        {
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div class="text-xs font-weight-bold text-success 
+                                        text-uppercase mb-1 text-center">
+                                    Gestor Paciente -- Prueba -- 
+                                </div>
+                                <div class="h5 mb-0 font-weight-bold text-gray-800 text-center">@prueba.Nombre</div>
+                            </div>
+                            <div class="col-auto">
+                                <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                            </div>
+                            <div class="footer mx-auto my-2">
+                                <a class="btn btn-danger m-1" onclick="confirmDelete('@prueba.Id','Prueba', 'Borrar')">Eliminar</a>
+                                <a class="btn btn-primary" asp-action="Editar" asp-controller="Prueba" asp-route-Id="@prueba.Id">
+                                    <i class="bi bi-pen-fill"></i> Editar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="mt-5 d-flex justify-content-center alert alert-danger text-center">
+        <h4>No hay pruebas disponibles </h4>
+    </div>
+}
+
+<partial name="_modalEliminar" />

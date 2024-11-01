@@ -1,0 +1,464 @@
+[
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.CitaController",
+    "Method": "Get",
+    "RelativePath": "Api/Cita",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "ObtenerCitas"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.CitaController",
+    "Method": "Post",
+    "RelativePath": "Api/Cita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citadto",
+        "Type": "GestorPacienteApi.DTOs.CitasDtos.PostCitaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.CitaController",
+    "Method": "Get",
+    "RelativePath": "Api/Cita/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestorPacienteApi.DTOs.UsuariosDtos.GetUsuarioDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerCitasById"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.CitaController",
+    "Method": "Delete",
+    "RelativePath": "Api/Cita/Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.ExamenController",
+    "Method": "Get",
+    "RelativePath": "Api/Examen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "ObtenerExamenes"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.ExamenController",
+    "Method": "Post",
+    "RelativePath": "Api/Examen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examenDto",
+        "Type": "GestorPacienteApi.DTOs.ExamenDto.PostExamenDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.ExamenController",
+    "Method": "Get",
+    "RelativePath": "Api/Examen/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestorPacienteApi.DTOs.ExamenDto.GetExamenDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerExamenesById"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.ExamenController",
+    "Method": "Delete",
+    "RelativePath": "Api/Examen/Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.LoginController",
+    "Method": "Post",
+    "RelativePath": "Api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GestorPacienteApi.DTOs.LoginDto.PostLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.MedicoController",
+    "Method": "Get",
+    "RelativePath": "Api/Medico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "ObtenerMedicos"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.MedicoController",
+    "Method": "Post",
+    "RelativePath": "Api/Medico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoVM",
+        "Type": "GestorPacienteApi.DTOs.MedicosDto.PostMedicoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.MedicoController",
+    "Method": "Put",
+    "RelativePath": "Api/Medico",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GestorPacienteApi.DTOs.MedicosDto.PatchMedicoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.MedicoController",
+    "Method": "Get",
+    "RelativePath": "Api/Medico/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestorPacienteApi.DTOs.MedicosDto.GetMedicoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerMedicosById"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.MedicoController",
+    "Method": "Delete",
+    "RelativePath": "Api/Medico/Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PacienteController",
+    "Method": "Get",
+    "RelativePath": "Api/Paciente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "ObtenerPacientes"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PacienteController",
+    "Method": "Post",
+    "RelativePath": "Api/Paciente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoVM",
+        "Type": "GestorPacienteApi.DTOs.PacientesDtos.PostPacienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PacienteController",
+    "Method": "Get",
+    "RelativePath": "Api/Paciente/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestorPacienteApi.DTOs.PacientesDtos.GetPacienteDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerPacientesById"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PacienteController",
+    "Method": "Delete",
+    "RelativePath": "Api/Paciente/Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PruebaController",
+    "Method": "Get",
+    "RelativePath": "Api/Prueba",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "ObtenerPruebas"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PruebaController",
+    "Method": "Post",
+    "RelativePath": "Api/Prueba",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pruebaDto",
+        "Type": "GestorPacienteApi.DTOs.PruebasDto.PostPruebaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PruebaController",
+    "Method": "Get",
+    "RelativePath": "Api/Prueba/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestorPacienteApi.DTOs.PruebasDto.GetPruebaDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerPruebasById"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.PruebaController",
+    "Method": "Delete",
+    "RelativePath": "Api/Prueba/Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.UsuarioController",
+    "Method": "Get",
+    "RelativePath": "Api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestorPacienteApi.DTOs.UsuariosDtos.GetUsuarioDto, GestorPacienteApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerUsuarios"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.UsuarioController",
+    "Method": "Post",
+    "RelativePath": "Api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Vm",
+        "Type": "GestorPacienteApi.DTOs.UsuariosDtos.PostUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.UsuarioController",
+    "Method": "Get",
+    "RelativePath": "Api/Usuario/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestorPacienteApi.DTOs.UsuariosDtos.GetUsuarioDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerUsuariosById"
+  },
+  {
+    "ContainingType": "GestorPacienteApi.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "Api/Usuario/Id",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

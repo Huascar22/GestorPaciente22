@@ -1,0 +1,49 @@
+﻿@using Modelo.Entidades;
+@model IEnumerable<Cita>;
+
+<div class="row mb-2">
+    <div class="col-3">
+        <a asp-action="Crear" asp-controller="Cita" class="btn btn-primary">Crear Cita</a>
+    </div>
+</div>
+
+@if (Model is not null && Model.Count() > 0)
+{
+    <div class="row">
+        @foreach (var cita in Model)
+        {
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-left-success shadow h-100 py-2">
+                    <div class="card-body">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col mr-2">
+                                <div>
+                                    <h3 class="text-xs font-weight-bold text-success
+                                                text-uppercase mb-1 text-center">
+                                        Cita medica
+                                    </h3>
+                                    <h6>
+                                        <b>Paciente:</b> @cita.Paciente.Nombre @cita.Paciente.Apellido
+                                    </h6>
+                                    <h6><b>Medico:</b> @cita.Medico.Nombre</h6>
+                                    <h6><b>Fecha:</b> @cita.FechaCita.ToString("f")</h6>
+                                    <h6><b>Causa:</b> @cita.Causa</h6>
+                                    <a class="btn btn-primary btn-sm w-100" asp-controller="Cita"
+                                    asp-action="CompletarCita" asp-route-Id="@cita.Id">Completar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="mt-5 d-flex justify-content-center alert alert-danger text-center">
+        <h4>No hay Citas disponibles </h4>
+    </div>
+}
+
+

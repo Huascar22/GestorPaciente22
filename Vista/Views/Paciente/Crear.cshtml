@@ -1,0 +1,83 @@
+﻿@using Vista.ViewModels;
+@model PacienteViewModel;
+
+@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-register-image">
+                        <div class="col-lg-6 d-none d-lg-block bg-login-image mt-5">
+                            <img class="mt-5" src="~/imagenes/doctorLogin.png" alt="Alternate Text" style="height:400px; " />
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="fw-bold text-gradient-primary mb-4"><i class="bi bi-person-fill-add"></i> Crear Paciente</h1>
+                            </div>
+                            <form class="user" asp-action="Crear" asp-controller="Paciente" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Nombre" placeholder="Nombre">
+                                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Apellido" placeholder="Apellido">
+                                        <span asp-validation-for="Apellido" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Telefono" placeholder="Telefono">
+                                        <span asp-validation-for="Telefono" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="text" class="form-control form-control-user"
+                                               asp-for="Cedula" placeholder="Cedula">
+                                        <span asp-validation-for="Cedula" class="text-danger"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
+                                        <input type="date" required class="form-control form-control-user"
+                                               asp-for="FechaNacimiento" placeholder="Fecha de Nacimiento">
+                                        <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-12 mb-3 mb-sm-0">
+                                        <input type="file" required class="form-control mt-4"
+                                               asp-for="File" placeholder="Foto de medico">
+                                        <span asp-validation-for="File" class="text-danger"></span>
+                                    </div>
+                                    
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                    Crear Paciente
+                                </button>
+                                <a asp-action="Index" asp-controller="Paciente"
+                                   class="btn btn-secondary btn-user btn-block">
+                                    Volver
+                                </a>
+                                <hr>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+

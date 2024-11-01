@@ -1,0 +1,74 @@
+﻿@using Modelo.Entidades;
+@model IEnumerable<Usuario>
+
+<div class="row mb-3">
+    <div class="col-2">
+        <a asp-action="Registrar" asp-controller="Registrar" class="btn bg-gradient-primary text-white text-center fw-bold ms-auto">
+            <i class="bi bi-person-plus-fill"></i> Usuario
+        </a>
+    </div>
+</div>
+
+@if (Model is not null && Model.Count() > 0)
+{
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 bg-gradient-primary">
+            <h5 class="m-0 font-weight-bold text-white"><i class="bi bi-people-fill"></i> Usuarios</h5>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <!-- Añadí la clase table-responsive para que la tabla sea desplazable en pantallas pequeñas -->
+                <table class="table table-bordered table-hover table-striped" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Acciones</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo</th>
+                            <th>Usuario</th>
+                            <th>Tipo</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Acciones</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Correo</th>
+                            <th>Usuario</th>
+                            <th>Tipo</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (Usuario usuario in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <a class="btn btn-primary" asp-action="Editar" asp-controller="Usuario" asp-route-Id="@usuario.Id">
+                                        <i class="bi bi-pencil-square"></i> Editar
+                                    </a>
+                                    <a class="btn btn-danger m-1" onclick="confirmDelete('@usuario.Id','Usuario', 'Borrar')">
+                                        <i class="bi bi-trash3-fill"></i> Borrar
+                                    </a>
+                                </td>
+                                <td>@usuario.Nombre</td>
+                                <td>@usuario.Apellido</td>
+                                <td>@usuario.Email</td>
+                                <td>@usuario.UserName</td>
+                                <td>@usuario.TipoUsuario.ToString()</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="mt-5 d-flex justify-content-center alert alert-danger">
+        <h4>No hay Usuarios disponibles Creados</h4>
+    </div>
+}
+
+<partial name="_modalEliminar" />
