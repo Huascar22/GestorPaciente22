@@ -12,6 +12,7 @@ namespace GestorPacienteApi.Controllers
 {
     [ApiController]
     [Route("Api/Usuario")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class UsuarioController : ControllerBase
     {
         private IServicios<Usuario> _servicios;
@@ -30,7 +31,7 @@ namespace GestorPacienteApi.Controllers
         }
 
         [HttpGet(Name = "ObtenerUsuarios")]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        
         public async Task<ActionResult<List<GetUsuarioDto>>> Get()
         {
             List<Usuario> usuarios = await _servicios.Obtener(_token);

@@ -87,3 +87,4 @@ C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\GestorP
 C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\GestorPacienteApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\GestorPacienteApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\GestorPacienteApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Lenovo\Desktop\Programacion\Practicas\Practica 2\GestorPaciente\GestorPacienteApi\obj\Debug\net8.0\GestorPacienteApi.sourcelink.json

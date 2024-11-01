@@ -2,6 +2,8 @@
 using GestorPacienteApi.DTOs.CitasDtos;
 using GestorPacienteApi.DTOs.PruebasDto;
 using GestorPacienteApi.DTOs.UsuariosDtos;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Modelo.Entidades;
 using Modelo.Interfaces;
@@ -10,6 +12,7 @@ namespace GestorPacienteApi.Controllers
 {
     [ApiController]
     [Route("Api/Prueba")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class PruebaController: ControllerBase
     {
         private readonly IServicios<Prueba> _servicios;

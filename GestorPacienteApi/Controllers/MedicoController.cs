@@ -8,11 +8,14 @@ using Modelo.Interfaces;
 using Microsoft.AspNetCore.JsonPatch;
 using Modelo.AppContext;
 using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace GestorPacienteApi.Controllers
 {
     [ApiController]
     [Route("Api/Medico")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class MedicoController : ControllerBase
     {
         private readonly IServicios<Medico> _servicios;

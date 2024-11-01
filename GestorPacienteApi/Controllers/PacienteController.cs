@@ -2,6 +2,8 @@
 using GestorPacienteApi.DTOs.MedicosDto;
 using GestorPacienteApi.DTOs.PacientesDtos;
 using GestorPacienteApi.DTOs.UsuariosDtos;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Modelo.Entidades;
 using Modelo.Interfaces;
@@ -11,6 +13,7 @@ namespace GestorPacienteApi.Controllers
 {
     [ApiController]
     [Route("Api/Paciente")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class PacienteController: ControllerBase
     {
         private readonly IServicios<Paciente> _servicios;
